@@ -1,5 +1,6 @@
 /* место для вашего кода */
 body {
+  font-family: Raleway;
 }
 
 .conteiner {
@@ -162,6 +163,7 @@ section {
 
 .section_header {
   display: flex;
+  margin-top: 27px;
 }
 
 .section_header_title {
@@ -208,11 +210,12 @@ h1 {
   top: 0;
   width: 350px;
   height: 52px;
+  padding-top: 50px;
 }
 
 .section_header_text {
   bottom: 50px;
-  font-family: Raleway;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -230,13 +233,12 @@ h1 {
 
 h3,
 a {
-  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #000;
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 /* Блок аукциона */
