@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+ 
 }
 
 body {
@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  
 }
 
 img {
