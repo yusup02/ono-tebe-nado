@@ -7,19 +7,18 @@
 
 /* шапка сайта */
 .header {
+  margin-top: 92px;
   height: 109px;
-  width: 100%;
 }
 
 /* навигация */
 .nav {
-  padding-top: 92px;
+ 
   display: flex;
   justify-content: space-between;
-  height: 109px;
   font-size: 18px;
   margin: auto;
-  align-items: flex-end;
+  align-items: center;
   
 }
 
@@ -73,7 +72,7 @@
 }
 
 .section {
-  margin-top: 192px;
+  margin-top: 92px;
   height: 757px;
   width: 100%;
   position: relative;
@@ -85,20 +84,18 @@
   width: 100%;
   color: white;
   padding-top: 165px;
-  font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 100px */
   position: relative;
   z-index: 1;
+  letter-spacing: 30px;
 }
 
 .ONO p {
   margin-top: 0;
   margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 0;
   height: 115px;
+  word-spacing: 6px;
 }
 
 .ONO_2 {
@@ -127,6 +124,9 @@
 
 .auction_text {
   margin-right: 78px;
+  text-transform: uppercase;
+  width: 633px;
+  word-spacing: 6px;
 }
 
 /* кнопка */
@@ -141,7 +141,7 @@
 
 /* Блок Лоты */
 section {
-  margin-top: 342px;
+  margin-top: 183px;
   width: 1340px;
 }
 
@@ -253,6 +253,7 @@ a {
   width: 240px;
   height: 240px;
   border-radius: 180px;
+  margin-left: 95px;
 }
 
 .section_auction_logo_img {
@@ -276,6 +277,14 @@ a {
 .section_auction_text {
   font-size: 20px;
   margin-bottom: 0;
+}
+
+.text_1 {
+  padding-top: 100px;
+}
+
+.text_2 {
+  margin-top: 25px;
 }
 
 /* footer */
@@ -304,6 +313,7 @@ a {
 
 .footer_menu {
   list-style-type: none;
+  text-align: center;
 }
 
 .footer_menu a {
