@@ -37,6 +37,7 @@
 
 .menu a {
   color: black;
+  font-family: Raleway, sans-serif;
 }
 
 .menu_li_1,
@@ -63,6 +64,7 @@
 
 .info_text {
   line-height: 1.5;
+  font-family: Raleway, sans-serif;
 }
 
 /* блок "Оно тебе надо" */
@@ -75,7 +77,7 @@
 
 .section {
   margin-top: 92px;
-  height: 757px;
+  min-height: 757px;
   width: 100%;
   position: relative;
 }
@@ -90,6 +92,7 @@
   position: relative;
   z-index: 1;
   letter-spacing: 30px;
+  font-family: Raleway, sans-serif;
 }
 
 .ONO p {
@@ -109,6 +112,7 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 0;
+  font-family: Raleway, sans-serif;
 }
 
 /* нижний текст */
@@ -122,6 +126,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
+  font-family: Raleway, sans-serif;
 }
 
 .auction_text {
@@ -129,12 +134,13 @@
   text-transform: uppercase;
   width: 633px;
   word-spacing: 6px;
+  font-family: Raleway, sans-serif;
 }
 
 /* кнопка */
 .auction_button {
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   background-color: transparent;
   color:  #ffffff;
   border: 1px solid #fff;
@@ -199,7 +205,7 @@ h1 {
 }
 
 .section_header_inner {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -207,7 +213,7 @@ h1 {
   text-transform: uppercase;
   top: 0;
   width: 350px;
-  height: 52px;
+  min-height: 52px;
   padding-top: 50px;
 }
 
@@ -245,6 +251,7 @@ a {
 .section_header_inner_text {
   margin-top: 30px !important;
   margin-left: 40px !important;
+  font-family: Raleway, sans-serif;
 }
 
 /* Блок аукциона */
@@ -290,10 +297,12 @@ a {
 
 .text_1 {
   padding-top: 100px;
+  font-family: Raleway, sans-serif;
 }
 
 .text_2 {
   margin-top: 25px;
+  font-family: Raleway, sans-serif;
 }
 
 /* footer */
