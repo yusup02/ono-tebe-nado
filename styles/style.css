@@ -18,7 +18,6 @@
   font-size: 18px;
   margin: auto;
   align-items: center;
-  
 }
 
 /* Меню */
@@ -26,17 +25,19 @@
   list-style-type: circle;
   list-style-position: inside;
   display: flex;
-  width: 450px;
-  height: 23px;
+  width: 388px;
   padding-left: 0;
   justify-content: space-between;
-
-  
+  font-size: 18px;
 }
 
 .menu a {
   color: black;
   font-family: Raleway, sans-serif;
+}
+
+.menu_li_1 {
+  margin-left: 0 !important;
 }
 
 .menu_li_1,
@@ -47,6 +48,10 @@
 }
 
 /* логотип */
+.logo_inner {
+  padding-right: 98px;
+}
+
 .logo {
   width: 148px;
   height: 105px;
@@ -57,7 +62,7 @@
   width: 240px;
   height: 97px;
   line-height: 24.3px;
-  opacity: 0.3;
+  color: #000;
   font-family: Raleway, sans-serif;
 }
 
@@ -83,16 +88,14 @@
 }
 
 /* заголовок */
-.ONO {
+.text_Ono {
   font-size: 100px;
   width: 100%;
   color: white;
   padding-top: 165px;
-  font-weight: 700;
   position: relative;
   z-index: 1;
   letter-spacing: 30px;
-  font-family: Raleway, sans-serif;
 }
 
 .ONO p {
@@ -101,6 +104,7 @@
   margin-bottom: 0;
   word-spacing: 6px;
   font-family: Raleway, sans-serif;
+  font-weight: 700;
 }
 
 .ONO_2 {
@@ -142,10 +146,11 @@
   width: 257px;
   min-height: 52px;
   background-color: transparent;
-  color:  #ffffff;
+  color: #ffffff;
   border: 1px solid #fff;
   font-size: 22px;
   font-family: Raleway, sans-serif;
+  text-transform: uppercase;
 }
 
 /* Блок Лоты */
@@ -155,7 +160,7 @@ section {
 }
 
 .section::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -165,6 +170,27 @@ section {
   z-index: 0;
 }
 
+.card {
+  margin-left: 25px;
+  position: relative;
+  width: 430px;
+}
+
+.card_1 {
+  margin-left: 0 !important;
+}
+
+.card_lot {
+  text-transform: uppercase;
+  padding-left: 40px;
+  font-size: 40px;
+  font-family: Raleway, sans-serif;
+}
+
+.card_inner {
+  display: flex;
+}
+
 .section_header {
   display: flex;
   margin-top: 27px;
@@ -172,36 +198,40 @@ section {
 
 .section_header_title {
   width: 430px;
-  margin-left: 25px;
-  position: relative;
   color: #fff;
-}
-
-.title_1 {
-  margin-left: 0 !important;
-  width: 430px;
+  z-index: 0;
   min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.section_header_title img {
-  height: 100%;
-  position: relative;
-  z-index: -2;
+.card_1 {
+  
+  background: url(../images/card-lot-01.jpg);
+  background-size: cover;
 }
 
-.section_header_title div {
+.card_2 {
+
+  background-image: url(../images/card-lot-02.jpg);
+  background-size: cover;
+}
+.card_3 {
+ 
+  background-image: url(../images/card-lot-03.jpg);
+  background-size: cover;
+}
+
+.card::after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 450px;
+  min-height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-  padding-left: 40px;
-  font-size: 40px;
-  font-family: Raleway, sans-serif;
+  z-index: 0;
 }
 
 .section_header_inner {
@@ -218,7 +248,7 @@ h1 {
 }
 
 .section_header_text {
-  bottom: 50px;
+  padding-bottom: 50px;
 
   font-size: 20px;
   font-style: normal;
@@ -229,23 +259,20 @@ h1 {
 
 .section_header_inner,
 .section_header_text {
-  position: absolute;
-  left: 40px;
-  right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   text-align: left;
+  position: relative;
   z-index: 1;
   font-family: Raleway, sans-serif;
 }
 
 p,
 a {
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #000;
   font-family: Raleway, sans-serif;
-  
 }
 
 .section_header_inner_text {
@@ -337,7 +364,7 @@ a {
 }
 
 .footer_menu a {
-  font-size: 18px ;
+  font-size: 18px;
   font-family: Raleway, sans-serif;
 }
 
