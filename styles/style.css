@@ -61,7 +61,6 @@
 /* контакты */
 .info {
   width: 240px;
-  min-height: 97px;
   line-height: 24.3px;
   color: #000;
   font-family: Raleway, sans-serif;
@@ -106,16 +105,31 @@
   margin-left: 50px;
 }
 
+.nner_text_1_O {
+      margin-left: -22px;
+}
+
 .nner_text_2 {
   display: flex;
   justify-content: center;
+  padding-right: 27px;
+  padding-top: 9px;
+}
+
+.nner_text_2_E {
+  padding-left: 27px;
 }
 
 .nner_text_3 {
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 18px;
+  padding-top: 5px;
   font-family: Raleway, sans-serif;
+}
+
+.nner_text_2_H {
+  padding-right: 32px;
 }
 
 /* нижний текст */
@@ -123,7 +137,7 @@
   display: flex;
   justify-content: flex-end;
   color: white;
-  margin-top: 138px;
+  margin-top: 125px;
   margin-right: 50px;
   font-size: 22px;
   align-items: center;
@@ -242,7 +256,6 @@ section {
   text-transform: uppercase;
   top: 0;
   width: 350px;
-  min-height: 52px;
   padding-top: 50px;
 }
 
